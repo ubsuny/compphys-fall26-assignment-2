@@ -41,6 +41,7 @@ $$
 E_{\rm{approx}} = \frac{2qd}{x^3}.
 $$
 
+Note: we are "cheating" a bit by setting $1/(4\pi\epsilon_0)=1$. This could be arranged through appropriate units, for example. Besides making our lives easier, for numerical computations, it is generally a good idea to keep your numbers around the middle of the range of your data type (e.g., usually close to 1). 
 
 ### Problem 1a
 *10 points*
