@@ -6,7 +6,7 @@ header-includes:
 - \usepackage[document]{ragged2e}
 ---
 
-# Assignment 1
+# Assignment 2
 
 ## Instructions
 - PHY410: Do problems 1 and 2a-2b
