@@ -12,7 +12,7 @@ header-includes:
 - PHY410: Do problems 1 and 2a-2b
 - PHY 505: Do problems 1 and 2a-2c
 
-Accept the assignment from "Classroom 50" website: <https://classroom50.org/ubsuny/compphys-fall26/assignments/assignment-1/accept>. This will create a new repository for you on github, titled something like `github.com/ubsuny/ubsuny/compphys-fall26-assignment-2-username`. The repository is located in the `ubsuny` github group, but it is your personal repository, and only you can view it. (The repository is actually not a fork, but rather a brand new repository created by directly copying files from a "template repository.)
+Accept the assignment from "Classroom 50" website: <https://classroom50.org/ubsuny/compphys-fall26/assignments/assignment-2/accept>. This will create a new repository for you on github, titled something like `github.com/ubsuny/ubsuny/compphys-fall26-assignment-2-username`. The repository is located in the `ubsuny` github group, but it is your personal repository, and only you can view it. (The repository is actually not a fork, but rather a brand new repository created by directly copying files from a "template repository.)
 
 The assignment requires two uploads:
 
@@ -55,7 +55,7 @@ In a real C++ program, the `<limits>` library provides `std::numeric_limits<T>::
 
 [^2]: Again, this is fairly rough: `epsilon` is a conservative upper bound on what we would actually consider the uncertainty, but we are just doing an order-of-magnitude estimate.
 
-**Using propagation of uncertainty, estimate the value of $d$ for which $E_{\rm{exact}} \approx dE_{\rm{exact}}$, for both floats and doubles.** Specifically, starting from $E_{\rm{exact}}=E_{+} - E_{-}$, we have $dE_{\pm} = \epsilon E_{\pm}$. Use propagation of uncertainty to determine $dE_{\rm{exact}}$, set $E_{\rm{exact}}=dE_{\rm{exact}}$ to find the minimum $E$, and then solve for $d$. Use $\epsilon=1.19209\times 10^{-7}$ for floats and $\epsilon=2.22045\times 10^{-16}$ for doubles. 
+**Using propagation of uncertainty, estimate the value of $d$ for which $E_{\rm{exact}} \approx dE_{\rm{exact}}$, for both floats and doubles.** Hint: starting from $E_{\rm{exact}}=E_{+} - E_{-}$, we have $dE_{\pm} = \epsilon E_{\pm}$. Use propagation of uncertainty to determine $dE_{\rm{exact}}$, set $E_{\rm{exact}}=dE_{\rm{exact}}$ to find the minimum $E_{\rm{exact}}$, and then solve for $d$. Use $\epsilon=1.19209\times 10^{-7}$ for floats and $\epsilon=2.22045\times 10^{-16}$ for doubles. 
 
 In your write-up, please show your work for this calculation as well as the result.
 
